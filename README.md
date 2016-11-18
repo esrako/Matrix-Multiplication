@@ -1,4 +1,4 @@
-# Matrix-Multiplication
+# Multi-threaded Matrix Multiplication
 
 This program implements a multi-threaded matrix multiplication. (https://en.wikipedia.org/wiki/Matrix_multiplication).
 It computes C = A * B where A, B are the input matrices and C is the result output matrix. It is assumed that A,B and C fit into main memory.
