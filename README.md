@@ -42,9 +42,9 @@ $ cat matA.csv
 * [x] Cases where input matrixA and matrixB cannot be multiplied because matrixA.col != matrixB.row: Handled via isValid() method
 * [x] Integer overflow, for this case, we can simply change the code to use long[][] instead of int[][]
 
-![alt tag](https://github.com/esrako/Matrix-Multiplication/blob/master/files/graph1.pdf)
+![alt tag](https://github.com/esrako/Matrix-Multiplication/blob/master/files/graph1.png)
 
-![alt tag](https://github.com/esrako/Matrix-Multiplication/blob/master/files/graph2.pdf)
+![alt tag](https://github.com/esrako/Matrix-Multiplication/blob/master/files/graph2.png)
 
 ## License
 
