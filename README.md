@@ -3,8 +3,12 @@
 This program implements a multi-threaded matrix multiplication. (https://en.wikipedia.org/wiki/Matrix_multiplication).
 It computes C = A * B where A, B are the input matrices and C is the result output matrix. It is assumed that A,B and C fit into main memory.
 * [x] To run:
+
 java -jar multiply.jar inputAFileName inputBFileName outputFileNme nrThreads, or
+
 java Test inputAFileName inputBFileName outputFileName nrThreads
+
+{to generate jar: jar cvfm multiply.jar manifest.txt *.class}
 
 # Guidelines
 * [x] The application accepts inputs in the form of files. Contents of each file is a space-delimited matrix. The first line contains the dimensions of the matrix. Consider this 5x5 matrix file as an example. 
