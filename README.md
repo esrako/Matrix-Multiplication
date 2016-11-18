@@ -10,11 +10,17 @@ java Test inputAFileName inputBFileName outputFileName nrThreads
 * [x] The application accepts inputs in the form of files. Contents of each file is a space-delimited matrix. The first line contains the dimensions of the matrix. Consider this 5x5 matrix file as an example. 
 
 $ cat matA.csv
+
 5 5              <======== The first line contains matrix dimensions
+
 4 5 6 7 8
+
 1 2 3 4 5
+
 9 8 7 6 5
+
 4 3 3 4 3
+
 1 1 1 1 1
 
 * [x] The output is stored in a file in the same format
